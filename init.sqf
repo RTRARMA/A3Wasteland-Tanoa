@@ -5,6 +5,7 @@
 //	@file Name: init.sqf
 //	@file Author: [404] Deadbeat, [GoT] JoSchaap, AgentRev
 //	@file Description: The main init.
+//change foo
 
 #include "debugFlag.hpp"
 
