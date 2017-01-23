@@ -91,17 +91,17 @@ switch (true) do
 	case ({_vehClass isKindOf _x} count ["MRAP_01_base_F", "MRAP_02_base_F", "MRAP_03_base_F", "UAV_02_base_F"] > 0): // MRAPs and UAV_02
 	{
 		_time = 15;
-		_money = 750;
+		_money = 1000;
 	};
 	case (_vehClass isKindOf "Boat_Armed_01_base_F"): // Speedboats
 	{
 		_time = 10;
-		_money = 500;
+		_money = 1000;
 	};
 	case ({_vehClass isKindOf _x} count ["Quadbike_01_base_F", "Kart_01_Base_F", "Rubber_duck_base_F", "UAV_01_base_F"] > 0): // Quadbikes, karts, rubber boats, UAV_01
 	{
 		_time = 3;
-		_money = 50;
+		_money = 500;
 	};
 	default // Everything else
 	{
